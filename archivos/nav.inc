@@ -7,7 +7,7 @@
       <a class="nav-link" href="/wiki.php">Wiki</a>
     </li>
     <li >
-      <a class="nav-link" href="/Contacto.php">Contacto</a>
+      <a class="nav-link" href="/contacto.php">Contacto</a>
     </li>
   </ul>
 </nav> 
