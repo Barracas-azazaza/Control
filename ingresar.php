@@ -13,7 +13,7 @@
     <section style="text-align:center">
         <form name="form1" method="post" action="controler.php" style="max-width:500px;margin:auto">
               <div >
-                <img src="recursos/images/ingresar.png" alt="Avatar" class="avatar">
+                <img src="/recursos/images/ingresar.png" alt="Avatar" class="avatar">
               </div> <br/>    
                   <label for="usuario" name="lblUsuario" class="contenidoSec" >Usuario:</label>
                   <div class="input-container">
