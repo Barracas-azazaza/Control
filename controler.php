@@ -3,7 +3,7 @@ require("DBclass.php");
 
 echo ($_POST['usuario'] . $_POST['pass']);
 if( !empty( $_POST['usuario'] ) && !empty( $_POST['pass'] )){
-    $_con = mysqli_connect('localhost', 'root', '', 'test');
+    $_con = mysqli_connect('test.cdujhlpuixqw.us-east-1.rds.amazonaws.com', 'root', 'Oracle123', 'test');
     if( mysqli_connect_error()) echo "Falló conexión a MySQL: " . mysqli_connect_error();
     else{        
         $usuario = 	$_POST['usuario'];
