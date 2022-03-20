@@ -18,7 +18,7 @@ if( !empty( $_POST['usuario'] ) && !empty( $_POST['pass'] )){
                 if( $count == 1){
                     $_SESSION = $data;
                     $_SESSION['logged_in'] = true;
-                    header('Location: http://seguridadphp-env.eba-md3u3qqw.us-east-1.elasticbeanstalk.com/Construccion.php');;
+                    header('Location: localhost/Construccion.php');;
                 }else{
                     throw new Exception( 'error en sesión' );
                 }
