@@ -4,10 +4,10 @@
     <li ><a class="nav-link" href="/index.php">Principal</a>
     </li>
     <li >
-      <a class="nav-link" href="/Control/wiki.php">Wiki</a>
+      <a class="nav-link" href="/wiki.php">Wiki</a>
     </li>
     <li >
-      <a class="nav-link" href="/Control/Contacto.php">Contacto</a>
+      <a class="nav-link" href="/Contacto.php">Contacto</a>
     </li>
   </ul>
 </nav> 
