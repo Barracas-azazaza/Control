@@ -8,7 +8,7 @@ if( !empty( $_POST['usuario'] ) && !empty( $_POST['pass'] )){
     else{        
         $usuario = 	$_POST['usuario'];
         $psw = 	$_POST['pass'];
-        $query= "SELECT * FROM users WHERE email='$usuario'  and pass='$psw';";
+        $query= "SELECT * FROM users WHERE email='$usuario' and pass='$psw';";
         echo($query);
         $result = mysqli_query($_con, $query);
                 $data = mysqli_fetch_assoc($result);
@@ -23,7 +23,8 @@ if( !empty( $_POST['usuario'] ) && !empty( $_POST['pass'] )){
                     throw new Exception( 'error en sesión' );
                 }
     }
-}else{
+}
+else{
     throw new Exception( 'error en sesión, campos vacios' );
 }
 
