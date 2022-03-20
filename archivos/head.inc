@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
 <title>Control Inventario Equipos de Telecomunicaiones</title>
-<base href="http://localhost/Control/index.html">
+<base href="http://seguridadphp-env.eba-md3u3qqw.us-east-1.elasticbeanstalk.com/Control/index.html">
